@@ -1,5 +1,7 @@
 var myState = 0;
-var myTimer = 0;
+var myTimer = 200;
+var x = 0;
+var vel = 3;
 
 function setup() {
   // put setup code here
@@ -10,6 +12,10 @@ function setup() {
 
 function draw() {
   // put drawing code here
+background(100);
+fill('F7FF3C');
+rect(width/2, height/2, 150, 400);
+
   fill('yellow');
   rect(width / 2, height / 2, 150, 400);
 
@@ -24,6 +30,7 @@ function draw() {
 
   fill('#7d0000');
   rect(width/2, height/2.5, 50, 50);
+
 
 
   switch (myState) {
@@ -53,8 +60,26 @@ function draw() {
         ellipse(width / 2, height / 2.5, 50, 50);
         myTimer++;
         if (myTimer >= 250) {
-          myTimer = 0;
-          myState = 0;
+          doTimer(0, 50);
+
+          vel = 0;
+          break;
+        }
+}
+        // animate a car
+        fill('purple');
+        rect(x, height-100, 80, 50);
+        x = x + vel;
+        if (x > width){
+          x = 0;
+        }
+
+        function doTimer(whichState, variableTimer){
+          timer--;
+          if(timer <= 0){
+            timer = variableTimer;
+            myState = whichState;
+          }
         }
   }
 }
