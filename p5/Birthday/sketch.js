@@ -149,7 +149,10 @@ function draw() {
     image(image16, 500, 100);
     break;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 14a9df79e2836bfd8da3a122e23382e9c3d322a1
 
   }
 
@@ -158,7 +161,7 @@ function draw() {
 function mouseReleased(){
   myState++;
 
-  if (myState > 15) {
+  if (myState > 16) {
     myState = 0;
   }
 }

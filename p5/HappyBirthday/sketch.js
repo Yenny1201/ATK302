@@ -26,19 +26,19 @@ function setup() {
   image17 = loadImage("Assets/Asmo.png")
   image18 = loadImage("Assets/Masato.png")
   image19 = loadImage("Assets/Heart.png")
+
 }
 
 function draw() {
   // put drawing code here
 
-  switch(myState){
+    switch(myState){
     case 0:
     background(255, 255, 255);
     text("Sanka", 100, 100);
     text("HAPPY BIRTHDAY JACKIE!!!", 500, 900)
     textSize(50);
     image(image0, 470, 20);
-    break;
 
     case 1:
     background(255, 255, 255);
@@ -115,6 +115,7 @@ function draw() {
     text("Tazwomante", 100, 100);
     textSize(50);
     image(image11, 430, 100);
+    image(image11, 430, 50);
     break;
 
     case 12:
@@ -223,14 +224,12 @@ function draw() {
     break;
 
 
-
   }
 
 }
 
 function mouseReleased(){
   myState++;
-
   if (myState > 19) {
     myState = 0;
   }
