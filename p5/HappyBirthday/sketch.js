@@ -21,11 +21,15 @@ function setup() {
   image12 = loadImage("Assets/NeoHajime.png")
   image13 = loadImage("Assets/Oddman.jpg")
   image14 = loadImage("Assets/EpicPotato.png")
+<<<<<<< HEAD
   image15 = loadImage("Assets/Maddy.png")
   image16 = loadImage("Assets/Opaquely.png")
   image17 = loadImage("Assets/Asmo.png")
   image18 = loadImage("Assets/Masato.png")
   image19 = loadImage("Assets/Heart.png")
+=======
+  image15 = loadImage("Assets/Opaquely.png")
+>>>>>>> 14a9df79e2836bfd8da3a122e23382e9c3d322a1
 }
 
 function draw() {
@@ -35,9 +39,15 @@ function draw() {
     case 0:
     background(255, 255, 255);
     text("Sanka", 100, 100);
+<<<<<<< HEAD
     text("HAPPY BIRTHDAY JACKIE!!!", 500, 900)
     textSize(50);
     image(image0, 470, 20);
+=======
+    text("HAPPY BIRTHDAY JACKIE!!!", 500, 100)
+    textSize(50);
+    image(image0, 470, 100);
+>>>>>>> 14a9df79e2836bfd8da3a122e23382e9c3d322a1
     break;
 
     case 1:
@@ -114,7 +124,11 @@ function draw() {
     background(255, 255, 255);
     text("Tazwomante", 100, 100);
     textSize(50);
+<<<<<<< HEAD
     image(image11, 430, 100);
+=======
+    image(image11, 430, 50);
+>>>>>>> 14a9df79e2836bfd8da3a122e23382e9c3d322a1
     break;
 
     case 12:
@@ -140,6 +154,7 @@ function draw() {
 
     case 15:
     background(255, 255, 255);
+<<<<<<< HEAD
     text("Maddy", 100, 100);
     textSize(50);
     image(image15, 430, 50);
@@ -223,6 +238,13 @@ function draw() {
     break;
 
 
+=======
+    text("OpaquelyTranslucent", 100, 100);
+    textSize(50);
+    image(image15, 500, 100);
+    break;
+
+>>>>>>> 14a9df79e2836bfd8da3a122e23382e9c3d322a1
 
   }
 
@@ -231,7 +253,11 @@ function draw() {
 function mouseReleased(){
   myState++;
 
+<<<<<<< HEAD
   if (myState > 19) {
+=======
+  if (myState > 15) {
+>>>>>>> 14a9df79e2836bfd8da3a122e23382e9c3d322a1
     myState = 0;
   }
 }
