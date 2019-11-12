@@ -22,6 +22,7 @@ function setup() {
   image13 = loadImage("Assets/Oddman.jpg")
   image14 = loadImage("Assets/EpicPotato.png")
   image15 = loadImage("Assets/Opaquely.png")
+  image16 = loadImage("Assets/Maddy.png")
 }
 
 function draw() {
@@ -140,6 +141,14 @@ function draw() {
     textSize(50);
     image(image15, 500, 100);
     break;
+
+    case 16:
+    background(255, 255, 255);
+    text("Maddy", 100, 100);
+    textSize(50);
+    image(image16, 500, 100);
+    break;
+
 
 
   }
