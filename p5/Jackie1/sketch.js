@@ -186,14 +186,14 @@ function draw() {
 
     case 21:
     background(255, 255, 255);
-    text("Z3r0", 100, 100);
+    text("Supertito", 100, 100);
     textSize(50);
     image(image21, 430, 100);
     break;
 
     case 22:
     background(255, 255, 255);
-    text("Supertito", 100, 100);
+    text("Z3r0", 100, 100);
     textSize(50);
     image(image22, 430, 50);
     break;
