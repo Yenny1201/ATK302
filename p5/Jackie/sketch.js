@@ -24,7 +24,12 @@ function setup() {
   image16 = loadImage("Assets/Opaquely.png")
   image17 = loadImage("Assets/Asmo.png")
   image18 = loadImage("Assets/Masato.png")
-  image19 = loadImage("Assets/Heart.png")
+  image19 = loadImage("Assets/Doon.jpg")
+  image20 = loadImage("Assets/Triumphant.png")
+  image21 = loadImage("Assets/Supertito.png")
+  image22 = loadImage("Assets/Z3r0.png")
+  image23 = loadImage("Assets/Ink.jpg")
+  image24 = loadImage("Assets/Heart.png")
 }
 
 function draw() {
@@ -167,6 +172,41 @@ function draw() {
 
     case 19:
     background(255, 255, 255);
+    text("Doon", 100, 100);
+    textSize(50);
+    image(image19, 430, 50);
+    break;
+
+    case 20:
+    background(255, 255, 255);
+    text("Triumpant", 100, 100);
+    textSize(50);
+    image(image20, 430, 50);
+    break;
+
+    case 21:
+    background(255, 255, 255);
+    text("Z3r0", 100, 100);
+    textSize(50);
+    image(image21, 430, 100);
+    break;
+
+    case 22:
+    background(255, 255, 255);
+    text("Supertito", 100, 100);
+    textSize(50);
+    image(image22, 430, 50);
+    break;
+
+    case 23:
+    background(255, 255, 255);
+    text("Ink", 100, 100);
+    textSize(50);
+    image(image23, 430, 50);
+    break;
+
+    case 24:
+    background(255, 255, 255);
     textSize(20);
     text("Sanka", 100, 100);
     text("Remake", 100, 130);
@@ -220,14 +260,14 @@ function draw() {
 
     textSize(50)
     text("We all wish you a happy birthday!", 500, 800);
-    image(image19, 600, 50);
+    image(image24, 600, 50);
     break;
   }
 }
 
 function mouseReleased(){
   myState++;
-  if (myState > 19) {
+  if (myState > 24) {
     myState = 0;
   }
 }
