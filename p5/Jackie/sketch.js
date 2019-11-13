@@ -12,11 +12,7 @@ function setup() {
   image4 = loadImage("Assets/Red.png")
   image5 = loadImage("Assets/Harpy.png")
   image6 = loadImage("Assets/Remake.jpg")
-<<<<<<< HEAD
   image7 = loadImage("Assets/Sweetshop1.png")
-=======
-  image7 = loadImage("Assets/SweetShop1.png")
->>>>>>> 4311d8c92e96007e66a91018c4e92ca8ba934184
   image8 = loadImage("Assets/Neil.png")
   image9 = loadImage("Assets/SatyrSatyr.png")
   image10 = loadImage("Assets/Ludi.png")
