@@ -179,9 +179,15 @@ function draw() {
 
     case 20:
     background(255, 255, 255);
+<<<<<<< HEAD
     text("TriumpantObtuse", 100, 100);
     textSize(50);
     image(image20, 430, 150);
+=======
+    text("Triumpant", 100, 100);
+    textSize(50);
+    image(image20, 430, 50);
+>>>>>>> 0038d4076e8892f6ee9f934764a63df2ee370bee
     break;
 
     case 21:
